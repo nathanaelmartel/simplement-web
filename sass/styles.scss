@@ -1,0 +1,43 @@
+
+
+/* Rouge et Vert sombre */
+$color_background: #D9C7A7; 
+$color_text: #D9C7A7; 
+$color_box: #033F14; 
+$color_text_box: #8C2323; 
+$color_front: #033F14; 
+$color_responsive: #291D1E; 
+$color_audit: #73573F; 
+$color_back: #102540; 
+
+/* gris rouge pastel : e7e2d9 ; 454546 ; 9b5a4f ; ffffff ; a3a0a1 */
+$color_background: #e7e2d9; 
+$color_text: #454546; 
+$color_box: #9b5a4f; 
+$color_text_box: #ffffff; 
+/* #a3a0a1 */
+
+
+/* vert marron pastel : f2f0d5 ; 40362e ; a3d9b0 ; 8c8474 ; 93bf9e */
+$color_background: #f2f0d5; 
+$color_text: #40362e; 
+$color_box: #a3d9b0; 
+$color_text_box: #40362e;
+$color_1: #a3d9b0; // vert clair
+$color_2: #93bf9e; // vert foncé
+$color_3: #f2f0d5; // crème
+$color_4: #8c8474; // marron clair
+$color_5: #40362e; // marron foncé
+/* #93bf9e */
+
+
+
+
+@import 'fontin';
+@import 'cssreset';
+@import 'cssbase';
+@import 'unsemantic-grid-responsive-tablet';
+@import 'form';
+@import 'main';
+@import 'responsive';
+
