@@ -10,7 +10,7 @@
     <meta name="title" content="Mentions Légales - Nathanaël Martel - simplement Web" />
 <meta name="robots" content="index, follow" />
     <title>Mentions Légales - Nathanaël Martel - simplement Web</title>
-    
+
     <link rel="stylesheet" type="text/css" media="screen" href="/css/simplement-web.css" />
 
 		<link rel="author" href="https://plus.google.com/114188409678832581888" />
@@ -23,6 +23,25 @@
 		<meta name="application-name" content="simplement Web">
 
 		<!-- «Vivre tous simplement pour que tous puissent simplement vivre.» Gandhi -->
+
+
+        <!-- Matomo -->
+        <script type="text/javascript">
+          var _paq = _paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(["disableCookies"]);
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="https://stats.simplement-web.com/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '14']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <!-- End Matomo Code -->
+
 
   </head>
   <body>
