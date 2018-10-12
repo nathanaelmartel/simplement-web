@@ -1,3 +1,70 @@
+<?php
+
+$current_page = rtrim($_SERVER['REQUEST_URI'], '/');
+
+$nav = array(
+    array(
+        'url' => '',
+        'name' => 'Compétences',
+        'childs' => array(
+            '/integration-developpement-frontend' => 'UI et UX',
+            '/devoloppment-web' => 'Modélisation',
+            '/ergonomie-accessibilite' => 'Audit qualité web',
+            '/presence-en-ligne' => 'Présence en ligne',
+        ),
+    ),
+    array(
+        'url' => '/technologies',
+        'name' => 'Technologies',
+        'childs' => array(
+            '/technologies/api' => 'API et manipulation de données',
+            '/technologies/responsive' => 'Responsive',
+            '/technologies/donnees-structurees' => 'Données structurées',
+        ),
+    ),
+    array(
+        'url' => '/projets',
+        'name' => 'Projets',
+        'childs' => array(
+            '/projets/sepa' => 'Automatisation de processus (SEPA)',
+            '/projets/processus' => 'Tableau de bord de gestion (Processus)',
+            '/projets/statistiques' => 'Tableau de bord de gestion (Statistiques)',
+        ),
+    ),
+    array(
+        'url' => '/references',
+        'name' => 'Clients',
+    ),
+    array(
+        'url' => '/contact',
+        'name' => 'Contact',
+    ),
+);
+
+function getBreadcrumb($current_page, $nav)
+{
+    $breadcrumb = array(
+        '' => 'simplement Web',
+    );
+
+    foreach ($nav as $category) {
+        if ($current_page == $category['url']) {
+            $breadcrumb[$category['url']] = $category['name'];
+        }
+        if (isset($category['childs']) && is_array($category['childs']) && (count($category['childs']) > 0)) {
+            if (isset($category['childs'][$current_page])) {
+                $breadcrumb[$category['url']] = $category['name'];
+                $breadcrumb[$current_page] = $category['childs'][$current_page];
+            }
+        }
+    }
+
+    return $breadcrumb;
+}
+
+$breadcrumb = getBreadcrumb($current_page, $nav);
+
+?>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +90,12 @@
       "name": "simplement Web",
       "url": "https://www.simplement-web.com/",
       "logo": "https://www.simplement-web.com/assets/images/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/nathana%C3%ABl-martel-15299753",
+        "https://twitter.com/simplementNat",
+        "https://github.com/nathanaelmartel",
+        "http://fr.viadeo.com/fr/profile/nathanael.martel"
+      ],
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+33781948086",
@@ -32,6 +105,24 @@
       }
     }
     </script>
+
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+      <?php $item = 1; foreach ($breadcrumb as $item_url => $item_name): ?>
+            "@type": "ListItem",
+            "position": <?php echo $item++ ?>,
+            "name": "<?php echo $item_name ?>",
+            "item": "https://www.simplement-web.com<?php echo $item_url ?>"
+        }<?php echo ($item < count($breadcrumb)+1)?',{':''; ?>
+      <?php endforeach ?>
+        ]
+    }
+    </script>
+
 
 
 
