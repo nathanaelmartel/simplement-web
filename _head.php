@@ -86,23 +86,32 @@ $breadcrumb = getBreadcrumb($current_page, $nav);
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
-      "@type": "Corporation",
+      "@type": "Organization",
       "name": "simplement Web",
       "url": "https://www.simplement-web.com/",
       "logo": "https://www.simplement-web.com/assets/images/logo.png",
-      "sameAs": [
-        "https://www.linkedin.com/in/nathana%C3%ABl-martel-15299753",
-        "https://twitter.com/simplementNat",
-        "https://github.com/nathanaelmartel",
-        "http://fr.viadeo.com/fr/profile/nathanael.martel"
-      ],
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+33781948086",
         "contactType": "customer service",
         "areaServed": "FR",
         "availableLanguage": "French"
-      }
+      },
+      "founders": [
+        {
+            "@type": "Person",
+            "name": "Nathanaël Martel",
+            "email": "mailto:nathanael@simplement-web.com",
+            "image": "https://www.simplement-web.com/assets/images/janvier2015-byHenri-2.jpg",
+            "telephone": "+33781948086",
+            "url": "https://nathanaelmartel.net",
+            "sameAs": [
+              "https://www.linkedin.com/in/nathana%C3%ABl-martel-15299753",
+              "https://twitter.com/simplementNat",
+              "https://github.com/nathanaelmartel",
+              "http://fr.viadeo.com/fr/profile/nathanael.martel"
+            ]
+        }]
     }
     </script>
 
