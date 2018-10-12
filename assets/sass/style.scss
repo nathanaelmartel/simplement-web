@@ -1,0 +1,374 @@
+/*!
+Nathanaël nathanaelmartel
+*/
+
+$simplementweb_light: #f6f7f6;
+$simplementweb_dark: #555;
+$simplementweb_grey: #888;
+$simplementweb_black: #000000;
+$simplementweb_green: #0f0;
+$simplementweb_white: #fefffe;
+
+@import 'ubuntumono';
+@import 'ubuntu';
+
+html, body {
+    font-size:100%;
+    font-family:ubuntu_monoregular, "ubuntu mono", ubuntu, monospace;
+    color:$simplementweb_dark;
+    background:$simplementweb_light;
+    margin:0;
+    padding:0;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+body .sr-only-focusable:active, body .sr-only-focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    display:block;
+    width: 100%;
+    text-align:center;
+    background:$simplementweb_black;
+    border-bottom:2px solid $simplementweb_green;
+    color:$simplementweb_green;
+    padding:.5em;
+    text-decoration: none;
+}
+
+.green {
+    color:$simplementweb_green;
+}
+
+a:hover, a:focus {
+    color:$simplementweb_black;
+}
+a, a:visited {
+    color:$simplementweb_dark;
+    transition:all .5s ease .1s;
+}
+a:active {
+    color:$simplementweb_green;
+}
+
+header {
+    padding-top:1em;
+    .header-top {
+        display:flex;
+        width:100%;
+        justify-content: space-between;
+        @media (max-width: 450px) {
+            flex-direction: column-reverse;
+            align-items: center;
+            padding-bottom:1em;
+            .contact {
+                text-align:center;
+            }
+        }
+    }
+    .contact {
+        text-align: right;
+        a {
+            text-decoration: none;
+        }
+        .brand {
+            display: none;
+        }
+    }
+
+    .logo {
+        display:block;
+        img {
+            height:80px;
+        }
+    }
+
+    nav {
+        border-top:2px solid $simplementweb_green;
+        border-bottom:2px solid $simplementweb_green;
+        background:$simplementweb_black;
+        ul {
+            margin:0;
+            padding:0;
+            height:3em;
+            line-height:3em;
+            li {
+                list-style: none;
+                margin:0;
+                padding:0;
+                a, a:visited {
+                    font-size:1.1em;
+                    text-decoration:none;
+                    color:$simplementweb_green;
+                    &:hover, &:focus, &:active, &.current {
+                        color:$simplementweb_light;
+                    }
+                }
+            }
+            display:flex;
+            position:relative;
+            ul {
+                display:none;
+                position:absolute;
+                top:3em;
+                height:auto;
+                line-height:1.5em;
+                padding:1em 0;
+                background:$simplementweb_black;
+                border-left:2px solid $simplementweb_green;
+                border-right:2px solid $simplementweb_green;
+                border-bottom:2px solid $simplementweb_green;
+            }
+            &>li {
+                &>a {
+                    display:block;
+                    padding:0 1em;
+                }
+                &:hover ul {
+                    display:block;
+                }
+            }
+
+        }
+    }
+
+}
+
+section, header nav ul, .header-top, .footer-content {
+    max-width:1050px;
+    margin:0 auto;
+    padding:0 1em;
+    box-sizing: border-box;
+}
+
+footer {
+    border-top:2px solid $simplementweb_green;
+    padding:1em 0;
+    background:$simplementweb_black;
+    color:$simplementweb_green;
+    font-size:1.1em;
+    text-align:center;
+    a, a:visited {
+        text-decoration:none;
+        color:$simplementweb_green;
+        &:hover, &:focus {
+            color:$simplementweb_light;
+        }
+    }
+    @media (max-width:700px) {
+        i {
+            display: block !important;
+            padding-bottom:1em;
+        }
+    }
+}
+
+section {
+    padding:2em 1em;
+    min-height:calc(100vh - 1em - 3em - 3em - 100px);
+    font-size:1.2em;
+    line-height: 1.5;
+
+    h1 {
+        text-transform:uppercase;
+        margin:0;
+        font-weight: normal;
+        color:$simplementweb_black;
+        font-size:1.3em;
+    }
+    h1+h2 {
+        margin-top:0;
+    }
+
+    h2 {
+        color:$simplementweb_grey;
+        font-weight: normal;
+        font-size:1em;
+        &:before {
+            content: '{';
+            color:$simplementweb_green;
+            font-size:1.3em;
+        }
+        &:after {
+            content: '}';
+            color:$simplementweb_green;
+            font-size:1.3em;
+        }
+    }
+
+    h3, h4 {
+        font-size:1em;
+        font-weight: normal;
+        color:$simplementweb_black;
+        position:relative;
+        &:after {
+            position: absolute;
+            top: 1.5em;
+            left:0;
+            content: '';
+            height:0;
+            width:1.5em;
+            border-top:1px solid $simplementweb_green;
+        }
+    }
+
+    p {
+
+    }
+
+    li {
+        list-style:none;
+        &:before {
+            font-family:"Font Awesome 5 Pro";
+            font-size:.7em;
+            margin-right:1em;
+            content: '\f120';
+            color:$simplementweb_green;
+        }
+    }
+}
+
+.testimonials {
+    padding:0;
+    li {
+        margin:2em 0;
+        &:before {
+            display:none;
+        }
+    }
+    blockquote {
+        margin:0;
+        &:before {
+            font-family:"Font Awesome 5 Pro";
+            font-size:1.7em;
+            line-height: 0;
+            margin-right:1em;
+            content:'\f10d';
+            color:$simplementweb_green;
+        }
+    }
+    font-family:ubuntu, "UbuntuRegular", sans-serif;
+    span {
+        font-family:"UbuntuItalic", sans-serif;
+        color:$simplementweb_grey;
+        display: block;
+        text-align:right;
+        &:before {
+            font-family:"Font Awesome 5 Pro";
+            font-size:1em;
+            line-height: 0;
+            margin-right:1em;
+            content:'\f5b7';
+            color:$simplementweb_grey;
+        }
+    }
+}
+
+.clients {
+    display:flex;
+    padding:0;
+    flex-wrap: wrap;
+    font-family:ubuntu, "UbuntuRegular", sans-serif;
+    li {
+        width:50%;
+        @media(max-width:900px) {
+            width:100%;
+        }
+        clear:both;
+        margin:1em 0;
+        padding:1em;
+        box-sizing: border-box;
+        &:before {
+            display:none;
+        }
+        img {
+            float:left;
+            height:100px;
+            margin-right:1em;
+            filter: grayscale(100%);
+            transition:all .5s ease .1s;
+        }
+        &:hover img {
+            filter: grayscale(0);
+        }
+        strong {
+            display: block;
+            font-weight:normal;
+            color:$simplementweb_black;
+        }
+
+        @media(max-width:450px) {
+            img {
+                float:none;
+                margin:0 auto;
+                display: block;
+                filter:none;
+            }
+                text-align:center;
+        }
+    }
+}
+
+.competences {
+    margin-left:-100px;
+    margin-right:-100px;
+    display:flex;
+    padding:0;
+    @media (max-width:1200px) {
+        flex-wrap:wrap;
+        margin:0;
+    }
+    li {
+        padding:0;
+        margin:0;
+        list-style: none;
+        box-sizing: border-box;
+        width:25%;
+        @media (max-width:1200px) {
+            width:50%;
+        }
+        @media (max-width:600px) {
+            width:100%;
+        }
+        padding:1em;
+        text-align:center;
+        a {
+            padding:1em .5em;
+            border:1px solid $simplementweb_green;
+            border-radius:3px;
+            background:$simplementweb_white;
+            display: block;
+            text-decoration: none;
+            &:hover, &:focus, &:active {
+                border-color:$simplementweb_dark;
+                color:$simplementweb_black;
+            }
+        }
+        i {
+            font-size:3em;
+            display:block;
+            color:$simplementweb_green;
+            padding:1em 0;
+        }
+        strong {
+            display: block;
+            padding:1em 0;
+        }
+    }
+}
+
+.badge-opquast {
+    float:left;
+    margin-right:1em;
+}
