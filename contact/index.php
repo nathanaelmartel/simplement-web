@@ -18,7 +18,7 @@
 
 
         <div itemscope itemtype="http://schema.org/Organization">
-          <a href="https://certificates.opquast.com/certificate/QY5WTB/" target="_blank" title="Certification Expert Opquast : Maîtrise de la qualité en projet Web" class="badge-opquast" ><img src="/assets/images/issuer_QY5WTB.svg" alt="Badge Expert par Opquast" width="150"></a>
+          <a href="https://certificates.opquast.com/certificate/QY5WTB/" target="_blank" title="Certification Expert Opquast : Maîtrise de la qualité en projet Web" class="align-left" ><img src="/assets/images/issuer_QY5WTB.svg" alt="Badge Expert par Opquast" width="150"></a>
         	<a itemprop="url" href="https://www.simplement-web.com/" class="brand" ><strong itemprop="name">simplement Web</strong></a>
         	<div itemprop="founder" itemscope itemtype="http://schema.org/Person">
             Votre expert qualité web <br />
@@ -28,8 +28,9 @@
 	        </div>
         </div>
 
-        	<p>Je travaille à distance, que ce soit chez moi ou depuis un <a href="http://www.lessatellites.fr/" target="_blank">espace de coworking à Nice</a> ou un <a href="https://laforgecollective.fr/" target="_blank">espace de coworking à Valence</a>.</p>
-        	<p>Je suis entrepreneur salarié chez <a href="http://www.mozeika.fr/" target="_blank">Mozeika</a>.</p>
+        <img class="align-right" src="/assets/images/janvier2015-byHenri-2.jpg" alt="Nathanaël Martel">
+        <p>Je travaille à distance, que ce soit chez moi ou depuis un <a href="http://www.lessatellites.fr/" target="_blank">espace de coworking à Nice</a> ou un <a href="https://laforgecollective.fr/" target="_blank">espace de coworking à Valence</a>.</p>
+        <p>Je suis entrepreneur salarié chez <a href="http://www.mozeika.fr/" target="_blank">Mozeika</a>.</p>
 
 
 	    </section>
