@@ -1,6 +1,6 @@
-<?php 
+<?php
 
-require_once('_config.php'); 
+require_once('_config.php');
 
 
 $page = '<?xml version="1.0" encoding="UTF-8" ?>';
@@ -25,7 +25,7 @@ foreach ($nav as $category) {
          foreach ($category['childs'] as $url => $name) {
             $page .= sprintf('
             <url>
-                <loc>https://www.simplement-web.com%s</loc>
+                <loc>https://www.simplement-web.com%s/</loc>
                 <lastmod>%s</lastmod>
                 <changefreq>monthly</changefreq>
                 <priority>0.1</priority>
@@ -35,5 +35,3 @@ foreach ($nav as $category) {
 }
 $page .= '</urlset>';
 file_put_contents('sitemap.xml', $page);
-
-

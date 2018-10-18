@@ -19,11 +19,16 @@
             <ul class="testimonials">
                 <li>
                     <blockquote>
-                    «&nbsp;Je tiens à recommander vivement Nathanaël Martel. Il a fait preuve, sur tous les projets que nous avons géré ensemble, de professionnalisme, d'une grande implication et a mené à bien et avec succès tous les projets. Nathanaël sait trouver des solutions pour chaque obstacle que nous pouvons rencontrer. Il est d'une patience et d'un dévouement à toutes épreuves. Nathanaël se tient toujours informé des nouvelles technologies et des nouvelles possibilités dans le domaine du web. Il est à la pointe de la technologie et s'informe quotidiennement des solutions existantes.&nbsp;» <span>Audrey Barthe Présidente de l'agence de communication ADSOLUE</span>
+                    «&nbsp;J'ai fait appel à Nathanaël Martel pour plusieurs supports de communication dont mon site internet principal. Nathanaël est un collaborateur réactif, très à l'écoute et bien sûr efficace. Il cerne les demandes, les traduit rapidement en langage informatique sans m'abreuver de termes techniques. J'ai une idée, il la met en forme et en usage. C'est un "technicien" de haut vol, capable de gérer du simple au très complexe avec la même attitude humble, au service. C'est un immense plaisir de pouvoir travailler avec lui, je peux me reposer en toute confiance sur ses compétences. Pour moi, c'est une personne ressource de grande valeur.&nbsp;» <span>Sabine Minh Sen</span>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
+                    «&nbsp;Je tiens à recommander vivement Nathanaël Martel. Il a fait preuve, sur tous les projets que nous avons géré ensemble, de professionnalisme, d'une grande implication et a mené à bien et avec succès tous les projets. Nathanaël sait trouver des solutions pour chaque obstacle que nous pouvons rencontrer. Il est d'une patience et d'un dévouement à toutes épreuves. Nathanaël se tient toujours informé des nouvelles technologies et des nouvelles possibilités dans le domaine du web. Il est à la pointe de la technologie et s'informe quotidiennement des solutions existantes.&nbsp;» <span>Audrey Barthe Présidente de l'agence de communication Adsolue</span>
                     </blockquote>
                 </li>
                 <li><blockquote>«&nbsp;Des compétences reconnues par toute l’équipe associées à un relationnel très agréable. je renouvellerai l’expérience sans hésiter&nbsp;!&nbsp;» <span>Xavier Guillerminet</span></blockquote></li>
-                <li><blockquote>«&nbsp;Créatif, force de proposition, prêt à confronter ses idées avec les demandes de non professionnels, faculté à s'adapter à leurs demandes.&nbsp;»<span>olivier Duplessis</span></blockquote></li>
+                <li><blockquote>«&nbsp;Créatif, force de proposition, prêt à confronter ses idées avec les demandes de non professionnels, faculté à s'adapter à leurs demandes.&nbsp;»<span>Olivier Duplessis</span></blockquote></li>
             </ul>
 
             <h1>Clients</h1>
