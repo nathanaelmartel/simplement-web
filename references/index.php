@@ -19,6 +19,11 @@
             <ul class="testimonials">
                 <li>
                     <blockquote>
+                    «&nbsp;J'ai collaboré avec Nathanaël de façon très rapproché pendant 3 ans. Ce qui m'a particulièrement plu est l'independence et la rapidité d'execution des différentes fonctionnalités, une fois que la demande est clairement exprimé, Nathanael sais trouver la façon la plus simple et efficace d'arriver à l'objectif souhaité tout en interpretant dans la bonne direction la volonté initialle afin de delivrer. C'était 3 années particulièrement enrichissente que de travailler avec Nathanaël, merci à toi.&nbsp;» <span>Vincent Steeg</span>
+                    </blockquote>
+                </li>
+                <li>
+                    <blockquote>
                     «&nbsp;J'ai fait appel à Nathanaël Martel pour plusieurs supports de communication dont mon site internet principal. Nathanaël est un collaborateur réactif, très à l'écoute et bien sûr efficace. Il cerne les demandes, les traduit rapidement en langage informatique sans m'abreuver de termes techniques. J'ai une idée, il la met en forme et en usage. C'est un "technicien" de haut vol, capable de gérer du simple au très complexe avec la même attitude humble, au service. C'est un immense plaisir de pouvoir travailler avec lui, je peux me reposer en toute confiance sur ses compétences. Pour moi, c'est une personne ressource de grande valeur.&nbsp;» <span>Sabine Minh Sen</span>
                     </blockquote>
                 </li>
