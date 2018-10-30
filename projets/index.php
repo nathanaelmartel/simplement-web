@@ -14,7 +14,7 @@
         <section id="content">
 
             <h1>Projets</h1>
-            <p>Je réalise toute sorte de projets en fonction de ce que l'on me demande :</p>
+            <p>Je réalise toute sorte de projets en fonction de ce que des demandes&nbsp;:</p>
             <ul>
                 <li>Sites de présence en ligne</li>
                 <li>Sites vitrine</li>
@@ -22,7 +22,7 @@
                 <li>Outils de gestion</li>
                 <li>Tableau de bord de suivis</li>
             </ul>
-            <p>Voici quelques projets que je peux vous détailler : <a href="/projets/processus/">Tableau de bord de gestion orienté processus</a>, <a href="/projets/sepa/">Processus automatisé de prélèvement SEPA</a>, <a href="/projets/statistiques/">Tableau de bord de suivis statistiques</a>.</p>
+            <p>Voici quelques projets que je peux détailler&nbsp;: <a href="/projets/processus/">Tableau de bord de gestion orienté processus</a>, <a href="/projets/sepa/">Processus automatisé de prélèvement SEPA</a>, <a href="/projets/statistiques/">Tableau de bord de suivis statistiques</a>.</p>
 
         </section>
 

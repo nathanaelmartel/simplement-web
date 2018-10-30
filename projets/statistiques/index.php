@@ -16,36 +16,36 @@
             <h1>Tableau de bord de gestion</h1>
             <h2>Statistiques</h2>
 
-            <h3>Problématique</h3>
+            <h3>La problématique</h3>
             <ul>
-                <li>Se retrouver dans une masse de données</li>
-                <li>Avoir les bonnes informations au bon moment </li>
-                <li>Extraire les données</li>
-                <li>Gestion du stock</li>
+                <li>Se retrouver dans une masse de données (liste de produits, tarifs fournisseurs, commandes clients…)</li>
+                <li>Extraire les données de sources multiples</li>
+                <li>Mettre en place des indicateurs pour avoir les bonnes informations au bon moment </li>
+                <li>Gérer les stocks</li>
                 <li>Évaluer l’efficacité et identifer les sources d’amélioration</li>
             </ul>
             <h4>Le contexte</h4>
             <ul>
-                <li>Gestion de plusieurs restaurants</li>
-                <li>Commandes clients par restaurant</li>
-                <li>Commandes fournisseurs par restaurant</li>
+                <li>La gestion de plusieurs restaurants</li>
+                <li>Des commandes clients pour chaque restaurant</li>
+                <li>Des commandes aux fournisseurs pour chaque restaurant</li>
             </ul>
-            <h3>Solution</h3>
+            <h3>La solution</h3>
             <ul>
-                <li>Mise en place d’un tableau de bord</li>
+                <li>Centraliser toutes les données dans un outil</li>
+                <li>Fournir un tableu de bord de suivi</li>
             </ul>
             <h4>La mise en place</h4>
             <ul>
-                <li>Outil de commande fournisseurs: suivi des coûts </li>
-                <li>Récupération des données des caisses des restaurants (via les API de zelty et innovorder): suivi du chifre d’affaire</li>
-                <li>Suivi de charge salariale</li>
-                <li>Calcul de ra rentabilité, de la marge: tableau de bord mensuel et hebdomadaire pour suivre l’évolution</li>
+                <li>Des outils de gestion pour les commandes fournisseurs, les inventaires, les charges salariales…</li>
+                <li>Récupération des données des logiciels de caisses via des API</li>
+                <li>Calcul de la rentabilité, de la marge&nbsp;: tableau de bord mensuel et hebdomadaire pour suivre l’évolution des indicateurs</li>
             </ul>
             <img src="/assets/images/Cas3-illustration-01.png" alt="Impression d'écran de la soluton : statistiques sur plusieurs mois" class="align-center">
-            <h3>Bilan</h3>
+            <h3>Le bilan</h3>
             <ul>
-                <li>Processus cadré pour les restaurants</li>
-                <li>Vue d’ensemble pour la gestion</li>
+                <li>Les processus sont plus cadrés pour les restaurants</li>
+                <li>L'entreprise à une meilleure visibilité de sa gestion</li>
             </ul>
 
         </section>

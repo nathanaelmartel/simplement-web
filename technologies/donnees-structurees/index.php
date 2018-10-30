@@ -17,22 +17,22 @@
             <h2>Sémantique, microdata</h2>
 
 
-            <h3>Problématique</h3>
+            <h3>La problématique</h3>
             <ul>
-            <li>Donnée de l’information aux moteurs de recherche</li>
+            <li>Donner de l’information aux moteurs de recherche</li>
             </ul>
-            <h3>Solution</h3>
+            <h3>Les solutions</h3>
             <ul>
-            <li>Utilisation des microdatas ou microformatLa mise en place</li>
-            <li>Information d’une entreprise: nom, site, adresse, logo...</li>
-            <li>Information d’un produit: nom, prix, photo, description </li>
-            <li>Information de contact: téléphone, horaires, langue </li>
-            <li>Fil d’Ariane: position d’une page dans un site </li>
-            <li>Information sur un événement: date, horaire, lieu, photo...</li>
+            <li>l'utilisation des microdatas ou microformat</li>
+            <li>l'information d’une entreprise&nbsp;: nom, site, adresse, logo...</li>
+            <li>l'information d’un produit&nbsp;: nom, prix, photo, description </li>
+            <li>les informations de contact&nbsp;: téléphone, horaires, langue </li>
+            <li>le plan du site et fil d’ariane&nbsp;: position d’une page dans un site </li>
+            <li>l'information sur un événement&nbsp;: date, horaire, lieu, photo...</li>
             </ul>
-            <h3>Bilan</h3>
+            <h3>Le bilan</h3>
             <ul>
-            <li>Meilleur afchage sur google</li>
+            <li>Meilleur affichage sur google</li>
             </ul>
 
         </section>

@@ -42,11 +42,11 @@
             <ul class="clients">
                 <li>
                     <img src="/media/logo/mrbelli.png" alt="Mr Belli">
-                    <strong>Mr Belli</strong> Outil de vente de produits alimentaire italien en B2B.
+                    <strong>Mr Belli</strong> Outil de vente de produits alimentaires italiens en B2B.
                 </li>
                 <li>
                     <img src="/media/logo/rootsalad.png" alt="Rootsalad">
-                    <strong>Rootsalad</strong> Site et outil de vente de produits alimentaire d’Amérique latine.
+                    <strong>Rootsalad</strong> Site et outil de vente de produits alimentaires d’Amérique latine.
                 </li>
                 <li>
                     <img src="/media/logo/atoi2voir.com.png" alt="Atoi2voir">

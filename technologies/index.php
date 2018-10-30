@@ -14,8 +14,8 @@
         <section id="content">
 
             <h1>Technologies</h1>
-            <p>L'apprentissage de nouvelles techniques, l'appropriation de nouvelles technologies font partis de mon métiers.</p>
-            <p>Parmis celles que j'ai appris à utiliser, en voici quelques unes qui vous sauront peut-être utile : <a href="/technologies/api/">API et manipulation de données</a>, <a href="/techonologies/donnees-structurees/">Microdata et données structurées</a>, <a href="/technologies/responsive/">Responsive</a>.</p>
+            <p>L'apprentissage de nouvelles techniques, l'appropriation de nouvelles technologies font partie de mon métier.</p>
+            <p>Parmis celles que j'utilise, en voici quelques unes qui vous seront peut-être utiles : <a href="/technologies/api/">API et manipulation de données</a>, <a href="/techonologies/donnees-structurees/">Microdata et données structurées</a>, <a href="/technologies/responsive/">Responsive</a>.</p>
 
         </section>
 

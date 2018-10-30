@@ -32,7 +32,7 @@
             <a href="/ergonomie-accessibilite/">
                 <i class="fal fa-star"></i>
                 <strong>Audit qualité web</strong>
-                <span>Amélioration progressive <br>bonnes pratiques</span>
+                <span>Amélioration progressive <br>Bonnes pratiques</span>
             </a>
         </li>
         <li>
