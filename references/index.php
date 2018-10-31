@@ -19,7 +19,7 @@
             <ul class="testimonials">
                 <li>
                     <blockquote>
-                    «&nbsp;J'ai collaboré avec Nathanaël de façon très rapproché pendant 3 ans. Ce qui m'a particulièrement plu est l'independence et la rapidité d'execution des différentes fonctionnalités, une fois que la demande est clairement exprimé, Nathanael sais trouver la façon la plus simple et efficace d'arriver à l'objectif souhaité tout en interpretant dans la bonne direction la volonté initialle afin de delivrer. C'était 3 années particulièrement enrichissente que de travailler avec Nathanaël, merci à toi.&nbsp;» <span>Vincent Steeg</span>
+                    «&nbsp;J'ai collaboré avec Nathanaël de façon très rapproché pendant 3 ans. Ce qui m'a particulièrement plu est l'independence et la rapidité d'exécution des différentes fonctionnalités, une fois que la demande est clairement exprimée, Nathanaël sait trouver la façon la plus simple et efficace d'arriver à l'objectif souhaité tout en interpretant dans la bonne direction la volonté initial afin de livrer. C'étaient 3 années particulièrement enrichissantes que de travailler avec Nathanaël, merci à toi.&nbsp;» <span>Vincent Steeg</span>
                     </blockquote>
                 </li>
                 <li>
@@ -50,7 +50,7 @@
                 </li>
                 <li>
                     <img src="/media/logo/atoi2voir.com.png" alt="Atoi2voir">
-                    <strong>Atoi2voir</strong> Magazine d’accompagnement spirituelle.
+                    <strong>Atoi2voir</strong> Magazine d’accompagnement spirituel.
                 </li>
                 <li>
                     <img src="/media/logo/tigellabella.png" alt="Tigellabella France">
@@ -58,7 +58,7 @@
                 </li>
                 <li>
                     <img src="/media/logo/revital-assurance.png" alt="Revital assurance">
-                    <strong>Revital assurance</strong> Site de présentation de l’entreprise et outil de suivis de l’activité.
+                    <strong>Revital assurance</strong> Site de présentation de l’entreprise et outils de suivi de l’activité.
                 </li>
                 <li>
                     <img src="/media/logo/my-casa.png" alt="My-casa">
@@ -70,7 +70,7 @@
                 </li>
                 <li>
                     <img src="/media/logo/skavenji.png" alt="Skavenji">
-                    <strong>Skavenji</strong> Site de présentation et de vente d’une box pour produire soit même son énergie.
+                    <strong>Skavenji</strong> Site de présentation et de vente d’une box pour produire soi-même son énergie.
                 </li>
                 <li>
                     <img src="/media/logo/lesargentins.com.png" alt="Les argentins">
