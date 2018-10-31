@@ -64,14 +64,14 @@
                     <img src="/media/logo/my-casa.png" alt="My-casa">
                     <strong>My-casa</strong> Site de location d’appartement de vacances.
                 </li>
-                <li>
+                <?php /*<li>
                     <img src="/media/logo/jessicannes.png" alt="JessiCannes">
                     <strong>JessiCannes</strong> Site de location d’appartement de vacances.
-                </li>
-                <li>
+                </li> */?>
+                <?php /*<li>
                     <img src="/media/logo/skavenji.png" alt="Skavenji">
                     <strong>Skavenji</strong> Site de présentation et de vente d’une box pour produire soi-même son énergie.
-                </li>
+                </li> */?>
                 <li>
                     <img src="/media/logo/lesargentins.com.png" alt="Les argentins">
                     <strong>Les argentins</strong> Site de présentation de l’agence de publicité.
@@ -80,14 +80,15 @@
                     <img src="/media/logo/unite-chretienne.png" alt="Unité chrétienne">
                     <strong>Unité chrétienne</strong> Site de vente en ligne du matériel pour la semaine pour l’unité des chrétiens.
                 </li>
-                <li>
+                <?php /*<li>
                     <img src="/media/logo/lescourmettes.com.png" alt="Les Courmettes">
                     <strong>Les Courmettes</strong> Site de présentation du domaine et des activités.
-                </li>
-                <li>
+                </li> */?>
+                <?php /*<li>
                     <img src="/media/logo/mondobougies.png" alt="Mondo Bougies">
                     <strong>Mondo Bougies</strong> Site de vente en ligne de matériel de fabrication de bougies.
                 </li>
+            </li> */?>
             </ul>
 
         </section>
