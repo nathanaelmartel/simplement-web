@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_config.php') ?>
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/_config.php'; ?>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 	<link rel="author" href="/humans.txt" />
 
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 	<meta name="application-name" content="simplement Web">
 
 	<!-- «Vivre tous simplement pour que tous puissent simplement vivre.» Gandhi -->
@@ -57,11 +57,11 @@
       "itemListElement": [{
       <?php $item = 1; foreach ($breadcrumb as $item_url => $item_name): ?>
             "@type": "ListItem",
-            "position": <?php echo $item++ ?>,
-            "name": "<?php echo $item_name ?>",
-            "item": "https://www.simplement-web.com<?php echo $item_url ?>"
-        }<?php echo ($item < count($breadcrumb)+1)?',{':''; ?>
-      <?php endforeach ?>
+            "position": <?php echo $item++; ?>,
+            "name": "<?php echo $item_name; ?>",
+            "item": "https://www.simplement-web.com<?php echo $item_url; ?>"
+        }<?php echo ($item < count($breadcrumb) + 1) ? ',{' : ''; ?>
+      <?php endforeach; ?>
         ]
     }
     </script>

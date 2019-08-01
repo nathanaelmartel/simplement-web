@@ -2,14 +2,14 @@
 <html lang="fr">
 
   <head>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_head.php') ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/_head.php'; ?>
     <title>API - Nathanaël Martel - simplement Web</title>
 
   </head>
   <body>
 
 
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_header.php') ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/_header.php'; ?>
 
         <section id="content">
 
@@ -29,7 +29,7 @@
                 <li>Récupération des articles d’un blog par RSS</li>
                 <li>Récupération d’un calendrier de disponibilité via iCal (ex: Airbnb...)</li>
                 <li>Import de données de fichiers CSV, ODC ou XSLX</li>
-                <li>Création de fichier de prélèvepent SEPA xpl norpé ISO 20022</li>
+                <li>Création de fichier de prélèvepent SEPA XML normé ISO 20022</li>
                 <li>Récupération des clients via l’API de WordPress</li>
                 <li>Récupération des commandes via l’API de WooCommerce </li>
                 <li>Récupération des produits via l’API de WooCommerce </li>
@@ -51,7 +51,7 @@
 
         </section>
 
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_footer.php') ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/_footer.php'; ?>
 
 
   </body>
