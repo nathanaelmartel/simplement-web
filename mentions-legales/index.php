@@ -15,7 +15,7 @@
 
             <h1>Mentions Légales</h1>
             <p>Nathanaël Martel <br>
-            Entrepreneur salarié en <abbr title="Contrat d'Entrepreneur Salarié Associé">CESA</abbr> chez <a href="http://www.mozeika.fr/" target="_blank">Avec Mozeika</a><br>
+            Entrepreneur salarié en <abbr title="Contrat d'Entrepreneur Salarié Associé">CESA</abbr> <a href="http://www.mozeika.fr/" target="_blank">Avec Mozeika</a><br>
             66 boulevard François Grosso<br>
             06000 Nice <br>
             SIRET : <a href="https://entreprise.data.gouv.fr/sirene/82989996200023" target="_blank">829 899 962 00023</a> <br>
