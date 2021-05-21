@@ -620,6 +620,10 @@ section {
         @media (prefers-color-scheme: dark) {
           color: $simplementweb_green;
           border-color: $simplementweb_green;
+
+          i {
+            color: $simplementweb_green;
+          }
         }
       }
     }
