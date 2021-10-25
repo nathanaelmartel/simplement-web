@@ -2,14 +2,14 @@
 <html lang="fr">
 
   <head>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_head.php') ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/_head.php'; ?>
     <title>Contact - Nathanaël Martel - simplement Web</title>
 
   </head>
   <body>
 
 
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_header.php') ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/_header.php'; ?>
 
         <section id="content">
 
@@ -29,13 +29,13 @@
         </div>
 
         <img class="align-right" src="/assets/images/janvier2015-byHenri-2.jpg" alt="Nathanaël Martel">
-        <p>Je travaille à distance, que ce soit chez moi ou depuis un <a href="https://www.ledrakkar-coworking.fr/" target="_blank">espace de coworking aux Ollières sur Eyrieux</a> ou un <a href="https://laforgecollective.fr/" target="_blank">espace de coworking à Valence</a>.</p>
+        <p>Je travaille à distance, que ce soit chez moi ou depuis un <a href="https://www.ledrakkar-coworking.fr/" target="_blank">espace de coworking aux Ollières sur Eyrieux</a>.</p>
         <p>Je suis entrepreneur salarié chez <a href="http://www.mozeika.fr/" target="_blank">Mozeika</a>.</p>
 
 
 	    </section>
 
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_footer.php') ?>
+    <?php require_once $_SERVER['DOCUMENT_ROOT'].'/_footer.php'; ?>
 
 
 
