@@ -11,7 +11,7 @@
                 	<a itemprop="url" href="https://www.simplement-web.com/" class="brand" ><strong itemprop="name">simplement Web</strong></a>
                 	<div itemprop="founder" itemscope itemtype="http://schema.org/Person">
         		        <a href="https://nathanaelmartel.net/" itemprop="url" ><span itemprop="name">Nathanaël Martel</span></a> <br />
-                        Votre <a href="https://certificates.opquast.com/certificate/QY5WTB/" target="_blank" title="Certification Expert Opquast : Maîtrise de la qualité en projet Web">expert qualité web</a> <br />
+                        Votre <a href="https://directory.opquast.com/fr/certificat/M4DUIV/" target="_blank" title="Certification Expert Opquast : Maîtrise de la qualité en projet Web">expert qualité web</a> <br />
         		        <span class="sr-only">Tel :</span> <a class="tel" itemprop="telephone" href="tel:+33781948086">07 81 94 80 86</a><br />
         		        <span class="sr-only">mail :</span> <a href="mailto:nathanael@simplement-web.com" class="mail"><span itemprop="email">nathanael@simplement-web.com</span></a><br /><br />
         	        </div>

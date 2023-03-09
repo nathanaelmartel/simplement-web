@@ -18,7 +18,7 @@
 
 
         <div itemscope itemtype="http://schema.org/Organization">
-          <a href="https://certificates.opquast.com/certificate/QY5WTB/" target="_blank" title="Certification Expert Opquast : Maîtrise de la qualité en projet Web" class="align-left" ><img src="/assets/images/issuer_QY5WTB.svg" alt="Badge Expert par Opquast" width="150"></a>
+          <a href="https://directory.opquast.com/fr/certificat/M4DUIV/" target="_blank" title="Certification Expert Opquast : Maîtrise de la qualité en projet Web" class="align-left" ><img src="/assets/images/issuer_QY5WTB.svg" alt="Badge Expert par Opquast" width="150"></a>
         	<a itemprop="url" href="https://www.simplement-web.com/" class="brand" ><strong itemprop="name">simplement Web</strong></a>
         	<div itemprop="founder" itemscope itemtype="http://schema.org/Person">
             Votre expert qualité web <br />
